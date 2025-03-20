@@ -1,0 +1,256 @@
+{
+  "turmas": [
+    {
+      "nome": "Turma A",
+      "campus": "Campus Centro",
+      "numeroTurma": 102,
+      "disciplina": "Desenvolvimento Web",
+      "semestre": 1,
+      "ano": 2025,
+      "id": "1",
+      "alunos": [
+        {
+          "id": "1742481030782",
+          "ra": "54353",
+          "nomeCompleto": "rwerw",
+          "nomeSocial": "43543"
+        },
+        {
+          "id": "1742481045571",
+          "ra": "5r43534",
+          "nomeCompleto": "rwrwe",
+          "nomeSocial": "43"
+        }
+      ],
+      "alunosSemProjeto": [
+        {
+          "id": "1742481030782",
+          "ra": "54353",
+          "nomeCompleto": "rwerw",
+          "nomeSocial": "43543"
+        },
+        {
+          "id": "1742481045571",
+          "ra": "5r43534",
+          "nomeCompleto": "rwrwe",
+          "nomeSocial": "43"
+        }
+      ],
+      "projetos": [
+        {
+          "nome": "rwerw",
+          "descricao": "rwerw",
+          "alunos": [],
+          "nota1": 0,
+          "nota2": 0,
+          "media": 0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Turma B",
+      "campus": "Campus Norte",
+      "numeroTurma": 202,
+      "disciplina": "Banco de Dados",
+      "semestre": 2,
+      "ano": 2024,
+      "projetos": [
+        {
+          "nome": "Gestão Escolar",
+          "descricao": "Sistema para gestão de escolas",
+          "alunos": [
+            4,
+            5
+          ],
+          "nota1": 9,
+          "nota2": 8.5,
+          "media": 8.7
+        }
+      ],
+      "alunos": [
+        4,
+        5,
+        6
+      ],
+      "alunosSemProjeto": [
+        6
+      ]
+    },
+    {
+      "id": "88f6",
+      "nome": "tertre",
+      "campus": "tret",
+      "numeroTurma": 453,
+      "disciplina": "trets",
+      "semestre": 5545,
+      "ano": 555,
+      "projetos": [],
+      "alunos": [],
+      "alunosSemProjeto": []
+    },
+    {
+      "id": "NaN",
+      "nome": "turma 7",
+      "campus": "fsd",
+      "numeroTurma": 44,
+      "disciplina": "fsfds",
+      "semestre": 444,
+      "ano": 444,
+      "projetos": [],
+      "alunos": [],
+      "alunosSemProjeto": []
+    },
+    {
+      "id": "1742479800",
+      "nome": "turma 8",
+      "campus": "dsfd",
+      "numeroTurma": 43543,
+      "disciplina": "gfdgdf",
+      "semestre": 43534,
+      "ano": 5345,
+      "projetos": [
+        {
+          "nome": "fsaf",
+          "descricao": "sdfaf",
+          "alunos": [
+            {
+              "id": "1742481077566",
+              "ra": "44444",
+              "nomeCompleto": "dfsdf",
+              "nomeSocial": ""
+            },
+            {
+              "id": "1742481376917",
+              "ra": "1111",
+              "nomeCompleto": "fsdfsd",
+              "nomeSocial": ""
+            }
+          ],
+          "nota1": 3,
+          "nota2": 4,
+          "media": 3.4
+        },
+        {
+          "nome": "gerge",
+          "descricao": "erge gre g regergg g gerg",
+          "alunos": [
+            {
+              "id": "1742481403171",
+              "ra": "453453",
+              "nomeCompleto": "fsdfs",
+              "nomeSocial": ""
+            }
+          ],
+          "nota1": 0,
+          "nota2": 0,
+          "media": 0
+        }
+      ],
+      "alunos": [
+        {
+          "id": "1742481077566",
+          "ra": "44444",
+          "nomeCompleto": "dfsdf",
+          "nomeSocial": ""
+        },
+        {
+          "id": "1742481376917",
+          "ra": "1111",
+          "nomeCompleto": "fsdfsd",
+          "nomeSocial": ""
+        },
+        {
+          "id": "1742481403171",
+          "ra": "453453",
+          "nomeCompleto": "fsdfs",
+          "nomeSocial": ""
+        }
+      ],
+      "alunosSemProjeto": [
+        {
+          "id": "1742481077566",
+          "ra": "44444",
+          "nomeCompleto": "dfsdf",
+          "nomeSocial": ""
+        },
+        {
+          "id": "1742481376917",
+          "ra": "1111",
+          "nomeCompleto": "fsdfsd",
+          "nomeSocial": ""
+        },
+        {
+          "id": "1742481403171",
+          "ra": "453453",
+          "nomeCompleto": "fsdfs",
+          "nomeSocial": ""
+        }
+      ]
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "Site E-commerce",
+      "descricao": "Criação de um site de vendas",
+      "alunos": [
+        1,
+        2
+      ],
+      "nota1": 8,
+      "nota2": 7,
+      "media": 7.4,
+      "id": "9af7"
+    },
+    {
+      "nome": "Gestão Escolar",
+      "descricao": "Sistema para gestão de escolas",
+      "alunos": [
+        4,
+        5
+      ],
+      "nota1": 9,
+      "nota2": 8.5,
+      "media": 8.7,
+      "id": "99a2"
+    }
+  ],
+  "alunos": [
+    {
+      "id": "1",
+      "ra": "2023001",
+      "nomeCompleto": "Ana Silva",
+      "nomeSocial": "Ana"
+    },
+    {
+      "id": "2",
+      "ra": "2023002",
+      "nomeCompleto": "Carlos Souza",
+      "nomeSocial": "Carlos"
+    },
+    {
+      "id": "3",
+      "ra": "2023003",
+      "nomeCompleto": "Mariana Lima",
+      "nomeSocial": "Mari"
+    },
+    {
+      "id": "4",
+      "ra": "2023004",
+      "nomeCompleto": "Lucas Ferreira",
+      "nomeSocial": "Lucas"
+    },
+    {
+      "id": "5",
+      "ra": "2023005",
+      "nomeCompleto": "Fernanda Costa",
+      "nomeSocial": "Fernanda"
+    },
+    {
+      "id": "6",
+      "ra": "2023006",
+      "nomeCompleto": "Rafael Martins",
+      "nomeSocial": "Rafa"
+    }
+  ]
+}

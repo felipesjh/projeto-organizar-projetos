@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Projetos - Turmas</h1>
+
+    <!-- Botão para cadastrar nova turma -->
+    <button onclick="abrirModalCadastro()">Cadastrar Nova Turma</button>
+
+    <!-- Container para a lista de turmas -->
+    <div id="lista-turmas"></div>
+
+    <!-- Container para os detalhes da turma -->
+    <div id="turmaDetalhes" style="display: none;"></div>
+
+
+    <!-- Modal de Cadastro de Turma -->
+    <div id="cadastroModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModalCadastro()">&times;</span>
+            <h2>Cadastrar Nova Turma</h2>
+            <label>Nome:</label>
+            <input type="text" id="cadastroNome">
+            <label>Campus:</label>
+            <input type="text" id="cadastroCampus">
+            <label>Número da Turma:</label>
+            <input type="number" id="cadastroNumero">
+            <label>Disciplina:</label>
+            <input type="text" id="cadastroDisciplina">
+            <label>Semestre:</label>
+            <input type="number" id="cadastroSemestre">
+            <label>Ano:</label>
+            <input type="number" id="cadastroAno">
+            <button onclick="cadastrarTurma()">Cadastrar</button>
+            <button onclick="fecharModalCadastro()">Cancelar</button>
+        </div>
+    </div>
+
+    <!-- Modal de Cadastro de Aluno -->
+    <div id="cadastroAlunoModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModalCadastroAluno()">&times;</span>
+            <h2>Adicionar Aluno à Turma</h2>
+            <input type="hidden" id="turmaAlunoId">
+            <label>RA:</label>
+            <input type="text" id="cadastroRA">
+            <label>Nome Completo:</label>
+            <input type="text" id="cadastroNomeAluno">
+            <label>Nome Social:</label>
+            <input type="text" id="cadastroNomeSocial">
+            <button onclick="cadastrarAluno()">Adicionar</button>
+            <button onclick="fecharModalCadastroAluno()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
